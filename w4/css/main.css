@@ -1,0 +1,76 @@
+html {
+    font-size: 18px
+}
+
+body {
+    background-color: #9df372;
+    color: #ed50a1;
+}
+
+a {
+    color: #ff9651;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ff9651;
+}
+
+a:hover, a:active {
+    color: #31a9ea;
+}
+
+/* The specificity for this ruleset is 0 IDs, 
+3 classes/attritbutes/pseudo classes, 
+and 1 element/pseudo-elements so it would be 031.*/
+
+table, tr, th, td, caption {
+    text-align: center;
+    color: #9e50ed;
+    border: 3px solid #ff9651;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1.5rem; 
+    margin: 5rem;
+    
+}
+
+/* This css adds colors and certain specifics to my table
+and any elements on my table. The padding adds space around the text.
+I tried to round the corners with radius howver the border collapse
+element didn´t let me and it removing it made it worse.
+I removed the underlines underneath links with text decoration.*/
+
+.center {
+    margin: 12rem auto;
+    background-color: #9e50ed;
+    width: 300px;
+    height: 300px;
+    border-radius: 240px;
+    outline: 10px dotted #ed50a1;
+    outline-offset: .025rem;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    color: #ff9651;
+    padding: 4rem;
+}
+
+/* This .center css element is for my sitemap. I tried to do something fun
+for the background of my sitemap. I tried out different shapes but ultimately
+stuck with what Dave taught us on circles but just made it bigger.
+I added text in the middle for my sitemap list. I tried to implement 
+fun bright colors but most would not fit or look good. The text and item
+align help my text be centered in the middle and the offset indicates
+how far the border is from the circle. The margin allows for
+my circle to be in the middle of the page instead of being all the way at the top.*/
+
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /* The middle class is specific to the box model image and the caption.
+  It's to help center it and it keeps the site map page a bit more uniform. */
