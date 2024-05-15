@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="../img/bylethpixel.png" type="image/x-icon">
+    <link rel="stylesheet" href="../final/css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1><em>About & Contact Me!</em></h1>
+            
+            <nav class="primenav">
+                <h3>Menu</h3>
+                <ul id="menu" >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="popular.html">Popular Games & Characters</a></li>
+                    <li><a href="gameplay.html">Gameplay</a></li>
+                    <li><a href="games.html">Games </a></li>
+                    <li><a href="#"> About & Contact</a></li>
+                    </ul>
+            </nav>
+    </header>   
+            
+
+        <main>
+            <article id="about">
+            <h3>About Me</h3>
+            <p>Hi, my name is Leslie and I'm taking this class for web dev. I enjoy playing Nintendo games like Fire Emblem, Splatoon, Animal Crossing, & more. I decided to make this site to inform any possible new fans of the Fire Emblem Franchise. The franchise has so much information and I thought this site would be a good little gist but also informative and helpful to the point where even those who aren't fans could understand. Thank you for reading and checking out my site.</p>
+            </article>
+
+            <hr>
+
+            <article id="contact">
+                <h2>Your Thoughts on Video Games</h2>
+                <p>I'd really like to hear from you!</p>
+
+                <br>
+
+                     <fieldset>
+                            <legend>What Type of Games Do You Like?</legend>
+                            <p>
+                                <input type="checkbox" name="game" id="rpg" value="rpg">
+                                <label for="rpg">RPG</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="game" id="shoot" value="shoot">
+                                <label for="shoot">Shooter</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="game" id="sim" value="sim">
+                                <label for="sim">Simulation</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="game" id="other" value="other">
+                                <label for="other">Other</label>
+                            </p>
+                        </fieldset>
+
+                        <br>
+
+                        <fieldset>
+                        <legend>Do You Like Fire Emblem?</legend>
+                        <p>
+                            <input type="radio" name="type" id="yes" value="yes">
+                            <label for="yes">Yes</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="type" id="no" value="no">
+                            <label for="no">No</label>
+                        </p>
+                    </fieldset>
+
+                    <br>
+
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                    <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Hubert" autocomplete="on" required autofocus>
+                    </p>
+                    <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Vestra" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="3h">Favorite 3H Character:</label>
+                        <select name="3h" id="3h" multiple size="7">
+                            <optgroup label="Blue Lions">
+                            <option value="dimitri">Dimitri</option>
+                            <option value="dedue">Dedue</option>
+                            <option value="felix">Felix</option>
+                            </optgroup>
+                            <optgroup label="Black Eagles">
+                            <option value="edelgard">Edelgard</option>
+                            <option value="hubert">Hubert</option>
+                            <option value="monica">Monica</option>
+                            </optgroup>
+                            <optgroup label="Golden Deer">
+                            <option value="claude">Claude</option>
+                            <option value="hilda">Hilda</option>
+                            <option value="lysethia">Lysethia</option>
+                            </optgroup>
+                            <optgroup label="Church">
+                            <option value="byleth">Byleth</option>
+                            <option value="rhea">Rhea</option>
+                            <option value="seteth">Seteth</option>
+                            <option value="flayn">Flayn</option>
+                            <option value="catherine">Catherine</option>
+                            <option value="Shamir">Shamir</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    
+                    </fieldset>
+
+                    <br>
+                
+                    <fieldset>
+                        <legend>Send Me A Note</legend>
+                        <label for="message">Your Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+
+            <hr>
+
+        </main>
+
+
+        <footer>
+            <ul class="bottomenu">
+                <li class="bottomenu">
+                    <a href="#">Back to Top</a>
+                </li>
+                <li class="bottomenu">
+                    <a href="https://chat.openai.com/c/68e2d03e-8cb8-48a8-a099-c1edba24da24" target="_blank">ChatGPT</a>
+                </li>
+                <li class="bottomenu">
+                    <a href="https://www.bing.com/images/create?FORM=GDPCLS" target="_blank">Bing Image Generator</a>
+                </li>
+                <li class="bottomenu">
+                    <a href="site.html">Site Map</a>
+                </li>
+                <li class="bottomenu">
+                    <a href="#about">Leslie V.</a>
+                </li>
+            </ul>
+        </footer>
+    
+</body>
+</html>
