@@ -1,3 +1,3 @@
-# lesliev-pub
-leslie's public repo for CIT85
+# popes public
+popes's public repo
 - from local system
